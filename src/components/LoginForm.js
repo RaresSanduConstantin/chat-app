@@ -35,6 +35,14 @@ const Modal = () => {
   return (
     <div className="wrapper">
       <div className="form">
+        <div>
+          <h1 className="title">
+            This is an demo application, to login please try the next
+            credentials:
+          </h1>
+          <h2>Username: john/jane/test</h2>
+          <h2>Password: 123123</h2>
+        </div>
         <h1 className="title">Chat Application</h1>
         <form onSubmit={handleSubmit}>
           <input
