@@ -37,7 +37,7 @@ const Modal = () => {
       <div className="form">
         <div>
           <h1 className="title">
-            This is an demo application, to login please try the next
+            This is a demo application, to login please try the next
             credentials:
           </h1>
           <h2>Username: john/jane/test</h2>
